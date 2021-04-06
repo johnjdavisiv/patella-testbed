@@ -9,6 +9,7 @@ Implements simplified versions of the knee joint mechanism from the following mu
      * Walker knee + quadriceps attaching on patella
 * Rajagopal 2016
      * Walker knee + quadriceps wrapping over patella and inserting on tibia
+     * Technically this muscle is from the Lai 2017 / Catelli 2019 improvements but neither changed the knee itself or the muscle path
 
 Two versions of each model are included, one with a musculotendon actuator (because PathActuator moment arms are hard to plot), and one with the muscle converted to a PathActuator (for forward simulations)
 
